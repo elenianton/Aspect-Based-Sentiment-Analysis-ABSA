@@ -12,9 +12,7 @@ Steps:
 1.	Downloading dataset: http://metashare.ilsp.gr:8080/repository/browse/semeval-2016-absa-restaurant-reviews-english-train-data-subtask-1/cd28e738562f11e59e2c842b2b6a04d703f9dae461bb4816a5d4320019407d23/. It is an XML file that contains 350 restaurant reviews split into 2000 sentences. Each sentence has been manually annotated with aspects (“category” attribute) and for each aspect a “polarity” label has been assigned (positive, neutral, negative)  
 2.	Reading/parsing the XML file and split it to 10 parts (35 reviews per part). Each part should be stored in a separate file (part1.xml, part2.xml, … part10.xml)
 3.	train.py --> trains a model and saves it to disk. 
-    The function should take as parameter an array that indicates which parts will be used for training. 
-      a.	As a ML model do not used k-NN but select another, e.g. Support Vector Machines, Logistic Regression.
-      b.	Use a large set of features, e.g. unigrams, bigrams, trigrams, POS tags, bigrams of POS, number of named entities, TF-IDF scores, counts, sentiment lexica. Whatever you think is more appropriate.
+    The function takes as parameter an array that indicates which parts will be used for training. 
 4.	Test.py --> that loads a saved model and uses it for predicting the polarities for the sentence aspects of a part. 
     A parameter of the function should specify which part will be used.
 5.	Experiments.py -->  uses the functions of train.py and test.py. 
