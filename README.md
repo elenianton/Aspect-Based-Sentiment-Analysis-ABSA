@@ -13,11 +13,11 @@ Steps:
 2.	Reading/parsing the XML file and split it to 10 parts (35 reviews per part). Each part should be stored in a separate file (part1.xml, part2.xml, … part10.xml)
 3.	train.py --> trains a model and saves it to disk. 
     The function takes as parameter an array that indicates which parts will be used for training. 
-4.	Test.py --> that loads a saved model and uses it for predicting the polarities for the sentence aspects of a part. 
-    A parameter of the function should specify which part will be used.
-5.	Experiments.py -->  uses the functions of train.py and test.py. 
+4.	Test.py --> loads a saved model and uses it for predicting the polarities for the sentence aspects of a part. 
+    A parameter of the function specify which part will be used.
+5.	Experiments.py -->  uses functions of train.py and test.py. 
     The experiments.py do: 
     a.	10-fold cross validation.In each iteration 9 parts will be used for training and 1 for testing/evaluation. Estimate accuracy for each of the 10 folds/iterations and               calculate an average of them.
-    b.	Repetition of the experiments of 5.a but use only the 1/3 and 2/3 of the training parts; i.e., 3 parts, 6 parts.
-6.	Finaly, we using a feature selection technique.
+    b.	Repetition of the experiments of 5.a with using only the 1/3 and 2/3 of the training parts; i.e., 3 parts, 6 parts.
+6.	Finaly, we using a feature selection technique
 
