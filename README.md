@@ -19,8 +19,7 @@ Steps:
     A parameter of the function should specify which part will be used.
 5.	Experiments.py -->  uses the functions of train.py and test.py. 
     The experiments.py do: 
-    a.	10-fold cross validation.In each iteration 9 parts will be used for training and 1 for testing/evaluation. Estimate accuracy for each of the 10 folds/iterations and calculate an average of them.
-    b.	Repeat the experiments of 5.a but use only the 1/3 and 2/3 of the training parts; i.e., 3 parts, 6 parts. Comment the results.
-6.	Use a feature selection technique and assess if all the features that you have used are important. For example,  if you have 1000 features you can keep the n most important and re-run your experiments (using all the 9 training parts). 
-
+    a.	10-fold cross validation.In each iteration 9 parts will be used for training and 1 for testing/evaluation. Estimate accuracy for each of the 10 folds/iterations and               calculate an average of them.
+    b.	Repetition of the experiments of 5.a but use only the 1/3 and 2/3 of the training parts; i.e., 3 parts, 6 parts.
+6.	Finaly, we using a feature selection technique.
 
