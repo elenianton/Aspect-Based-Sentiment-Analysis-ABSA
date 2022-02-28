@@ -1,4 +1,4 @@
-# Aspect-Based-Sentiment-Analysis-ABSA-
+# Aspect-Based-Sentiment-Analysis-ABSA
 
 Aspect Based Sentiment Analysis (ABSA)is the task of mining and summarizing opinions from text about specific entities (e.g. a restaurant). Typically, an ABSA system attempts to detect the main aspects that are discussed and estimate the polarity for each of them.
 In this setting one approach is to define an inventory (a closed set) of aspects for a domain and then build a system that can identify these aspects in text and make a decision about polarity.For the restaurant domain an aspect inventory has been defined in the context of SemEval conferences; e.g., the inventory contains FOOD#QUALITY, 
